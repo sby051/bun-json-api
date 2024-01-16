@@ -1,0 +1,31 @@
+{
+  "name": "bun-json-api",
+  "displayName": "Bun JSON API",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sby051/bun-json-api.git"
+  },
+  "author": "sby051",
+  "license": "MIT",
+  "description": "Bun JSON API template",
+  "keywords": [
+    "bun",
+    "bun-template",
+    "bun-json-api"
+  ],
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "prettier": "^3.2.2"
+  },
+  "scripts": {
+    "format": "prettier --write 'src/**/*.ts'"
+  }
+}
